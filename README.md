@@ -94,6 +94,12 @@ It integrates multiple AWS services to process form submissions securely and del
    - The screenshot below shows both the terminal output and the received email example.  
    ![Testing](screenshots/curl.png)
 
+6. ## Amazon Route 53
+- Hosted Zone was configured for the custom domain **yusufyucel.com**.  
+- DNS validation records were added for Amazon SES, allowing emails to be sent using the same domain.  
+- This setup not only enables static website hosting but also ensures that outgoing emails use a professional domain identity.  
+![Route53](screenshots/route53.png)
+![Website](screenshots/website.png)
 
 ✅ Outcome
 
