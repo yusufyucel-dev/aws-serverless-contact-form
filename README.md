@@ -20,7 +20,7 @@ It integrates multiple AWS services to process form submissions securely and del
 ---
 
 ## ⚡ Architecture
-![Architecture](screenshots/architecture.png)
+![Architecture](screenshots/diagram.png)
 
 **Workflow:**
 1. User submits the form on the website.  
