@@ -88,11 +88,12 @@ It integrates multiple AWS services to process form submissions securely and del
    - Enabled CORS: `*` origin, `POST` method, `content-type` header.  
    ![API Gateway](screenshots/apigateway.png)
 
-6. **Testing the Contact Form**
-   - API Gateway endpointini `cURL` ile test ettim.  
-   - Lambda fonksiyonu tetiklendi ve **SES üzerinden email başarıyla gönderildi**.  
-   - Aşağıdaki görselde hem terminal çıktısı hem de gelen email örneği gösterilmektedir.  
+5. **Testing the Contact Form**
+   - I tested the API Gateway endpoint using `cURL`.  
+   - The Lambda function was triggered and the email was successfully delivered through **Amazon SES**.  
+   - The screenshot below shows both the terminal output and the received email example.  
    ![Testing](screenshots/curl.png)
+
 
 ✅ Outcome
 
